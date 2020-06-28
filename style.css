@@ -13,6 +13,7 @@
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
+  --color-light-black: #131313;
   --color-black: #000000;
 
   /* Font size */
@@ -424,9 +425,36 @@ p {
 }
 
 .testimonial__speech-bubble p {
-    color: var(--color-light-grey)
+  color: var(--color-light-grey);
 }
 
-.testimonial__speech-bubble a{
-    color: var(--color-pink)
+.testimonial__speech-bubble a {
+  color: var(--color-pink);
+}
+
+/* Contact */
+
+#contact {
+  background-color: var(--color-light-black);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-light-grey);
+  transition: all var(--animation-duration) ease-in;
 }
