@@ -392,14 +392,14 @@ p {
 
 /* Testimonial */
 #testimonials {
-  background-color: light var(--color-light-white);
+  background-color: var(--color-light-white);
 }
 
 .testimonials {
   margin: 40px;
 }
 
-.tastimonial {
+.testimonial {
   display: flex;
   margin: 32px 0;
 }
@@ -410,7 +410,7 @@ p {
   border-radius: 50%;
 }
 
-.testimonial__avator:nth-child(odd) {
+.testimonial__avatar:nth-child(odd) {
   margin-right: 40px;
 }
 
